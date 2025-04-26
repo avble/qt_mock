@@ -1,0 +1,22 @@
+
+<RCC>
+    <qresource prefix="/avble/resources/qml">
+        <file>main.qml</file>
+	<file alias="dashboard.qml">dashboard.qml</file>
+	<file alias="home_lights.qml">home_lights.qml</file>
+	<file alias="home_switches.qml">home_switches.qml</file>
+	<file alias="home_sensors.qml">home_sensors.qml</file>
+	<file alias="home_air_conditioning.qml">home_air_conditioning.qml</file>
+	<file alias="home_cameras.qml">home_cameras.qml</file>
+	<file alias="home_ai_agent.qml">home_ai_agent.qml</file>
+	<file alias="home_setting.qml">home_setting.qml</file>
+	<file alias="home_automation.qml">home_automation.qml</file>
+	<file alias="room/room.qml">room/room.qml</file>
+	<file alias="room/labs.qml">room/labs.qml</file>
+        <file alias="device/Light.qml">device/Light.qml</file>
+        <file alias="device/Switches.qml">device/Switches.qml</file>
+        <file alias="device/Sensor.qml">device/Sensor.qml</file>
+        <file alias="device/AirConditioning.qml">device/AirConditioning.qml</file>
+        <file alias="device/Camera.qml">device/Camera.qml</file>
+    </qresource>
+</RCC>

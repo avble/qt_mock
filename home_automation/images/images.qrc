@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/avble/resources/images">
+	<file>weather_forcast.png</file>
+	<file>automation.png</file>
+        <file>light_off.png</file>
+        <file>light_on.png</file>
+        <file>background.png</file>
+        <file>background.jpg</file>
+        <file>icons/home.svg</file>
+        <file>icons/ai.svg</file>
+        <file>icons/living-room.svg</file>
+        <file>icons/kitchen-room.svg</file>
+        <file>icons/bedroom.svg</file>
+        <file>icons/garden.svg</file>
+        <file>icons/dashboard.svg</file>
+        <file>icons/automation.svg</file>
+        <file>icons/lighting.svg</file>
+        <file>icons/air-conditioning.svg</file>
+        <file>icons/switch.svg</file>
+        <file>icons/sensor.svg</file>
+        <file>icons/cctv.svg</file>
+        <file>icons/settings.svg</file>
+        <file>icons/curtains.svg</file>
+        <file>icons/home_others.svg</file>
+        <file>icons/lab.svg</file>
+        <file>light/on_off.svg</file>
+    </qresource>
+</RCC>
