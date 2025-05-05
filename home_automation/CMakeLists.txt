@@ -15,6 +15,10 @@ qt_standard_project_setup(REQUIRES 6.8)
 #target_compile_features(${TARGET} PRIVATE cxx_std_20)
 #install(TARGETS ${TARGET} RUNTIME)
 
+# set(CMAKE_CXX_FLAGS_DEBUG_INIT "-Wall -O0 -g")
+set(CMAKE_CXX_FLAGS_RELEASE_INIT "-Wall -Os")
+set(CMAKE_BUILD_TYPE Release)
+
 qt_add_executable(avhome
     main.cpp
     #llm.service/av_llm_func_call.cpp 
