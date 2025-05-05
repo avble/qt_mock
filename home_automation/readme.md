@@ -3,7 +3,7 @@
 ![snapshot-1](https://github.com/avble/qt_mock/blob/main/doc/images/home_automation.png?raw=true)
 
 # Web-assembly
-![web-assembly](https://avble.github.io/assets/avhome.html)
+[web-assembly](https://avble.github.io/assets/avhome.html)
 
 # Build 
 * Cmake
