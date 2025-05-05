@@ -2,8 +2,11 @@
 # Snapshot
 ![snapshot-1](https://github.com/avble/qt_mock/blob/main/doc/images/home_automation.png?raw=true)
 
-# Web-assembly
+# Run
 [web-assembly](https://avble.github.io/assets/avhome.html)
+
+[youtube](https://www.youtube.com/watch?v=s6Nf_M1NGOU)
+
 
 # Build 
 * Cmake
@@ -12,7 +15,7 @@ $ mkdir build && cd build
 $ cmake ..
 ```
 
-*qmake
+* qmake
 ``` shell
 $ mkdir build && cd build
 $ qmake ..
