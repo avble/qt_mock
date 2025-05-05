@@ -7,6 +7,13 @@
 
 [youtube](https://www.youtube.com/watch?v=s6Nf_M1NGOU)
 
+* With python
+``` shell
+# Note: please install pyside6
+$ pyside6-rcc images/images.qrc qml/qml.qrc  -o qrc_resources.py # generate resources file
+$ python main.py
+```
+
 
 # Build 
 * Cmake
@@ -21,9 +28,3 @@ $ mkdir build && cd build
 $ qmake ..
 ```
 
-* python
-``` shell
-# Note install pyside6
-$ pyside6-rcc images/images.qrc qml/qml.qrc  -o qrc_resources.py # generate resources file
-$ python main.py
-```
