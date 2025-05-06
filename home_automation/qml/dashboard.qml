@@ -122,12 +122,8 @@ ColumnLayout {
                             background.opacity: 0
                             icon.color: "blue"
                             icon.source: icon_source
-                        }
-                        Text {
-                            Layout.alignment: Qt.AlignLeft
                             text: name
-                            color: "blue"
-                            font.pointSize: 20
+                            font.pixelSize: 20 
                         }
                     }
                     Text {

@@ -21,8 +21,6 @@ set(CMAKE_BUILD_TYPE Release)
 
 qt_add_executable(avhome
     main.cpp
-    #llm.service/av_llm_func_call.cpp 
-    #llm.service/av_llm_wrapper.cpp
 )
 
 set_target_properties(avhome

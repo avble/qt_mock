@@ -2,10 +2,6 @@ import QtQuick
 import QtQuick.Controls
 import QtQuick.Controls.Material 2.4
 import QtQuick.Layouts
-//import QtQuick3D
-//import QtQuick3D.Physics
-
-// import App
 
 ApplicationWindow {
 	id: root
@@ -13,8 +9,6 @@ ApplicationWindow {
 	height: 560
 	visible: true
 	title: qsTr("A-Connect Smart Living")
-	// Material.theme: Material.Dark
-	// Material.accent: Material.Purple
 
 	Image {
 		id: backround
@@ -139,16 +133,17 @@ ApplicationWindow {
 			anchors.fill: parent
 			// topMargin: 50
 
-			// Text{
-			//     text: qsTr("Dashboard")
-			//     width: parent.width
-			// }
-
 			ItemDelegate {
 				text: qsTr("Dashboard")
 				width: parent.width
 				icon.source: "qrc:/avble/resources/images/icons/dashboard.svg"
-				// color: "white"
+				
+				// contentItem: Text {
+				// 		text: qsTr("Dashboard")
+				// 		color: "red"  // Set the text color here
+				// 		font.pixelSize: 16
+				// 	}
+
 				onClicked: {
 					//stackView.push("Page1Form.ui.qml")
 					content_main.setSource("dashboard.qml")
